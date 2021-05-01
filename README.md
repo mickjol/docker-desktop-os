@@ -1,11 +1,7 @@
-# MacOSX
-## All image are base on image from [sickcodes](https://sick.codes)
-For more information : https://github.com/sickcodes/Docker-OSX
+# Docker Desktop OS
+We try to bring desktop on your docker.
 
-user = user, password = alpine
+## Mac OS X
+The first OS we bring to your docker is MAC OS X. 
 
-## Many image are available
-[See all image](./IMAGES.md)
-
-## Start an image with desktop
-` docker run -it --device /dev/kvm -p 50922:10022 -v /tmp/.X11-unix:/tmp/.X11-unix -e "DISPLAY=${DISPLAY:-:0.0}" mickjol/macos-catalina:cordova`
+[Click here](docs/macosx.md) for more detail on macosx images.

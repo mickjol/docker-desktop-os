@@ -1,3 +1,5 @@
+# Detail of what content each image
+
 ## mickjol/macos-catalina:base
 - Catalina 10.15.7
 

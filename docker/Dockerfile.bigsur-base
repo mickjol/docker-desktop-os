@@ -1,0 +1,4 @@
+FROM sickcodes/docker-osx
+USER arch
+COPY --chown=arch ./bigsur-base.img /home/arch/OSX-KVM/mac_hdd_ng.img
+ENV NOPICKER=true
