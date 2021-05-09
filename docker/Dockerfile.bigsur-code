@@ -1,0 +1,6 @@
+FROM sickcodes/docker-osx:big-sur
+USER arch
+COPY --chown=arch ./bigsur-code.img /home/arch/OSX-KVM/mac_hdd_ng.img
+ENV NOPICKER=true
+ENV GENERATE_UNIQUE=true
+ENV MASTER_PLIST_URL=https://raw.githubusercontent.com/sickcodes/osx-serial-generator/master/config-custom.plist

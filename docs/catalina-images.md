@@ -10,6 +10,7 @@
 
 ## mickjol/macos-catalina:cordova
 - macos-catalina:code
+- xcode-select 2373
 - Homebrew 3.1.5
 - NodeJs 14.16.1
 - NPM 7.12.0
@@ -17,7 +18,6 @@
 
 #### for build ios
 - native-run 1.3.0
-- xcode-select 2373
 - ios-deploy 1.11.4
 - cocoapods 1.10.1
 
